@@ -18,5 +18,4 @@ You can pass extra system properties at the command line too, For
 instance to change the port the application will run on and to enable
 jmx output you could use:
 
-    java -server -Dcom.sun.management.jmxremote -Djetty.port=8090  -jar
-jruby-embedded-jetty.war
+    java -server -Dcom.sun.management.jmxremote -Djetty.port=8090 -jar jruby-embedded-jetty.war
